@@ -1,7 +1,8 @@
 [requires]
 boost/1.68.0@conan/stable
+catch2/2.1.0@bincrafters/stable
+Poco/1.8.0.1@pocoproject/stable
 cli11/1.6.1@bincrafters/stable
-cpprestsdk/2.10.2@bincrafters/stable
 jsoncpp/1.8.4@theirix/stable
 libcurl/7.61.1@bincrafters/stable
 OpenSSL/1.0.2n@conan/stable

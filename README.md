@@ -7,16 +7,15 @@
 * Run `make`
 
 ## How to run
-Run with JSON file in which must be listed symbols of required companies. Also you can specify
-custom interval for polling. How to do it - run binary with `--help`
+Sample command line: `iex_example -i 5 -s GOOGL AAPL`
 
 ## What is done
 * Added polling info from the API
-* Added configurable service via JSON
+* Added configurable service
 * Added storing to sqlite database
+* Added sample unit testing with Catch2 framework
 
 ## TODO
-* Add REST endpoint
-* Add unit testing
-* Fix issues with storing retrieved data
+* Add REST endpoint (e.g. via Poco/cpprestsdk library)
+* Add unit testing for better coverage
 * Add more Google services
